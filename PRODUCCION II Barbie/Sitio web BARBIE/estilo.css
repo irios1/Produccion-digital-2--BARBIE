@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&display=swap');
+
+body{
+    background-image: url(./imagenes/landingBARBIE.jpg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+    color: #fff;
+    flex-direction: column;
+    background-attachment: fixed; 
+    height: 100vh;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    border: solid white;
+    padding: 10px;
+    margin-left: 140px;
+    margin-top: 40px;
+    width: 25%;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    width: 50%;
+}
+.clubdefans{
+    margin-left: 70px;
+    margin-top: 40px;
+    font-family: 'Outfit', sans-serif;
+    font-size: 30px;
+}
+
+.SUMATE{
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 50px;
+}
+
+.footerfinal{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.iconos{
+    margin-top: 16px;
+}
+
+
+
+@media (max-width: 767px) {
+    .clubdefans {
+        margin-left: 40px; 
+        margin-top: 20px; 
+        font-size: 24px; 
+        white-space: nowrap;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .clubdefans {
+        margin-left: 40px; 
+        font-size: 26px; 
+        white-space: nowrap;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .clubdefans {
+        margin-left: 100px; 
+        margin-top: 60px; 
+        font-size: 28px; 
+    }
+}
+
+@media (max-width: 767px) {
+    .SUMATE{
+        margin-top: 10px;
+    }
+
